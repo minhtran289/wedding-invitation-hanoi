@@ -6,6 +6,9 @@ export async function generateMetadata({ params, searchParams }, parent) {
   const name = searchParams.name || "You";
   return {
     title: `${metaData.main.title} ${name}`,
+    openGraph: {
+      images: [metaData.album.graphImage, ...previousImages],
+    },
   };
 }
 
