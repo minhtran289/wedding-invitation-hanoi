@@ -4,12 +4,9 @@ export async function generateMetadata({ params, searchParams }, parent) {
   const previousImages = (await parent).openGraph?.images || [];
 
   const name = searchParams.name || "";
-  const name = searchParams.name || "";
   return {
     title: `${metaData.main.title} ${name}`,
-    openGraph: {
-      images: [metaData.main.graphImage, ...previousImages],
-    },
+
       openGraph: {
       images: [metaData.main.graphImage, ...previousImages],
     },
