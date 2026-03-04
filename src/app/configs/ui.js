@@ -25,13 +25,13 @@ const configConfetti = {
 const weddingInfo = [
   {
     time: {
-      date: "22/03",
+      date: "21/03",
       year: "2026",
       time: "11:00",
-      full: "Chủ nhật, Ngày 22 Tháng 03 năm 2026",
+      full: "Thứ 7, Ngày 21 Tháng 03 năm 2026",
     },
-    address: "Sảnh 1 - Promes Center",
-    street: "122 - 124 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+    address: "Cửa Hàng Lân Oanh",
+    street: "Đạo Tú, Thuận Thành, Bắc Ninh",
     phone: "1234 567 890",
     posision: "bottom left",
   },
@@ -101,8 +101,7 @@ const profileSection = {
 // invitation section
 
 const invitationSection = {
-  activeDay: 22,
-  activeDay2: 21
+  activeDay: 21
 };
 
 // album section
@@ -129,7 +128,7 @@ const guestbookSection = {
 const timerSection = {
   weddingTime: {
     year: 2026,
-    day: 22,
+    day: 21,
     month: 3,
   },
 };
