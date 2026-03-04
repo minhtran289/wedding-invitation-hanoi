@@ -6,7 +6,7 @@ import { useRef } from "react";
 import { introSection, weddingInfo } from "@/app/configs/ui";
 const cx = classNames.bind(styles);
 
-function Intro({ handleOpen, name = "You" }) {
+function Intro({ handleOpen, name = "" }) {
   const ref = useRef(null);
 
   console.log(name);
@@ -35,7 +35,7 @@ function Intro({ handleOpen, name = "You" }) {
               </div>
 
               <div className={cx("dear-box")}>
-                <p className={cx("dear")}>Thân mời : </p>
+                <p className={cx("dear")}>Thân mời </p>
                 <span className={cx("dear-name")}>{name}</span>
               </div>
             </div>
