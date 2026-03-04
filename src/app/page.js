@@ -7,7 +7,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: `${metaData.main.title} ${name}`,
     openGraph: {
-      images: [metaData.album.graphImage, ...previousImages],
+      images: [metaData.main.graphImage, ...previousImages],
     },
   };
 }
